@@ -19,15 +19,17 @@ print(f'=============================================')
 print(f'{nome} tem {idade} anos e {altura} de altura.')
 print(f'{nome} pesa {peso} e seu imc é {imc:.2f}.')
 print(f'{nome} nasceu em {nascimento}')
+print()
 
-imc_f = str(imc)
-if imc_f <= '18.5':
-    print:(f'{nome} Você esta abaixo do peso' )
 
-if imc_f <= '24.9':
+if imc <= 18.9:
+    print(f'{nome} Você esta abaixo do peso' )
+
+if imc >= 19 and imc <= 24.9:
     print(f'{nome} Você esta no peso ideal')
 
-if imc_f >= '25':
+if imc >= 25:
     print(f'{nome} Você esta com sobrepeso')
 
 print(f'=============================================')
+
