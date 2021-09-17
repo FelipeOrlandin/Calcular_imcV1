@@ -3,9 +3,13 @@ A ideia é calcular o imc da pessoa e informar se ela esta acima abaixo ou no pe
 #
 
 nome = input('Informe seu nome: ')
+
 idade = input('Informe sua idade: ')
+
 altura = input("Informe sua altura: ")
+
 peso = input('Informe seu peso: ')
+
 ano_atual = input('Informe ano atual: ')
 
 peso_f = float(peso)
