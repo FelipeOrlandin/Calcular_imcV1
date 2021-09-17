@@ -13,10 +13,15 @@ peso = input('Informe seu peso: ')
 ano_atual = input('Informe ano atual: ')
 
 peso_f = float(peso)
+
 altura_f = float(altura)
+
 ano_atual = int(ano_atual)
+
 idade = int(idade)
+
 nascimento = ano_atual - idade
+
 imc = peso_f / altura_f ** 2
 
 print(f'=============================================')
